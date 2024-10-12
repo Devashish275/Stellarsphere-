@@ -1,20 +1,20 @@
 .ss {
   position: absolute;
   text-align: center;
-  margin: 20px;
   color: #fff;
-  font-size: 2.5em;
+  font-size: 2em;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
   top: 2%;
   z-index: 5;
 }
 
 .container {
+margin-top: 10%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* Add space between planets and the sun */
+  gap: 30px; /* Add space between planets and the sun */
   background-image: url('space_stars_bg.jpg'); /* Add space background image */
   background-size: cover; /* Cover the entire viewport */
   background-position: center;
